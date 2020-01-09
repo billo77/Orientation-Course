@@ -1,0 +1,458 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 68px;
+    color: darkslategray;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#welcome{
+    border: 1px solid rgb(175, 167, 167);
+    background: rgb(209, 205, 205)
+}
+
+company{
+    color: blue;
+    font-size: 150px;
+}
+
+span#dci{
+    font-size: 150px;
+    color: rgb(30, 172, 5);
+}
+
+span#dci1{
+    font-size: 150px;
+    color: rgb(165, 7, 7);
+}
+
+div img#logo{
+    position: fixed;
+    left: 85%;
+    top: 145px;
+    cursor: pointer;
+    perspective: 800px;
+    animation: logo 6s linear infinite;
+}
+
+@keyframes logo{
+    0%{transform: rotatey(0);}
+    100%{transform: rotatey(360deg);}
+}
+
+img#dci8{
+    margin-top: 25px;
+    display: flex;
+}
+
+img#html{
+    margin-right: 20px;
+}
+
+blockquote{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-indent: 55px;
+    font-size: 26px;
+    letter-spacing: 2px;
+    padding: 35px 40px ;
+    background: lightgray;
+    margin: 0px 45px;
+    cursor: pointer;
+    border: 50px solid gray;
+    border-radius: 50px;
+}   
+
+blockquote#indent{
+    text-indent: 55px;
+}
+
+img#list{
+    margin-left: 45px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 32px; 
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.menu a{
+    font-size: 20px;
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.menu a:hover{
+    background: rgb(240, 237, 237);
+    padding: 10px 0px 10px 0px;
+    text-decoration: underline;
+    color: cornflowerblue;
+    font-style: italic;
+    cursor: pointer;
+}
+
+header{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 28px;
+    color: brown;
+    cursor: pointer;
+}
+
+h2.abc:hover{
+    color: rgb(221, 23, 63);
+    font-style: italic;
+}
+
+h2.abc{
+    color:rgb(2, 63, 68);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 45px 0px 95px 0px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    cursor: pointer;
+    ;
+}
+
+.lessons ul{
+    display: inline;
+    text-align: justify;
+    margin-left: 20px; 
+    cursor: pointer;
+}
+
+.lessons a{
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lessons li {
+    margin-top: 25px;
+    margin-left: 35px;
+    list-style-type: none;
+    text-decoration: underline;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.lessons a:hover{
+    background: rgb(229, 240, 243);
+    text-decoration: underline;
+    color: rgb(185, 7, 7);
+    font-style: italic;
+    cursor: pointer;
+}
+
+aside .lessons{
+    text-align: justify;
+    width: 22%;
+    float: left;
+    cursor: pointer;
+}
+
+#html img{
+    height: 450px;
+    width: 65%;
+    display: flex;
+    text-align: justify;
+    float: right;
+    cursor: pointer;
+    position: fixed;
+  }
+
+div.aside{
+    display: flex;
+    cursor: pointer;
+}  
+
+h2.list{
+    color: rgb(0, 70, 128);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 65px 0px 65px 0px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 54px;
+    cursor: pointer;
+}
+
+
+h2#about{
+    margin: 145px 0px 55px 0px;
+    color: rgb(187, 80, 8);
+    font-size: 70px;
+    cursor: pointer;
+    font-style: italic;
+}
+
+
+h2#table{
+    color: rgb(0, 70, 128);
+    margin: 85px 0px 55px 0px;
+    cursor: pointer;
+    font-size: 60px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+    height: 450px;
+    margin-left:55px;
+    cursor: pointer;
+}
+
+th{
+    padding: 20px 30px ;
+    color: rgba(17, 104, 2, 0.883);
+    background: lightgray;
+    text-align: center;
+    font-size: 38px;
+}
+
+td{
+    padding: 8px 10px;
+    text-align: center;
+    font-size:22px;
+    font-weight: bold;
+}
+
+/* table tr:hover{
+    background-color: rgb(219, 221, 220);
+}  */
+
+table tr:nth-child(odd){
+    background: #dbdbdb;
+    color: rgb(187, 80, 8);
+    font-style: italic;
+}
+
+table tr:nth-child(even){
+   
+    color: rgb(73, 72, 72);
+    font-style: italic;
+}
+
+h2#video{
+    color: rgba(64, 3, 100, 0.747);
+    font-style: italic;
+    font-size: 60px;
+    margin: 95px 0px 35px 0px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+video{
+    margin-left: 65px;
+}
+
+select{
+    width: 160px;
+    margin-left: 5px;
+}
+
+div.form{
+    display: flex;
+    cursor: pointer;
+    margin-left: 15px;
+} 
+
+form .form2{
+    text-align: justify;
+    width: 15%;
+    float: left;
+    cursor: pointer;
+    display: flex;
+}
+
+img#form  {
+    height: 800px;
+    width: 1150px;
+    margin-right: 15px;
+    margin-left: 35px;
+    display: flex;
+    text-align: justify;
+    float: right;
+    cursor: pointer;
+  }
+
+h2#form{
+    color: rgba(158, 55, 7, 0.993);
+    padding: 35px 0px 35px 0px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid rgb(132, 219, 241);
+    background: rgb(132, 219, 241);
+    font-size: 52px;
+}
+
+form{
+    flex-direction: column;
+}
+
+a#upside{
+    font-weight: bold;
+    color: rgb(4, 119, 38);
+    font-size: 22px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a#upside:hover{
+    text-decoration: none;
+    color: blue;
+    font-style: italic;
+    background: lightgray;
+}
+
+img#message{
+    height: 750px;
+    width:70%;
+    margin-left: 25px;
+    display: flex;
+    text-align: justify;
+    float: right;
+    cursor: pointer;
+  }
+
+form .form3{
+    text-align: justify;
+    width: 22%;
+    float: left;
+    cursor: pointer;
+    display: flex;
+}
+
+form{
+    flex-direction: column;
+}
+
+div.button{
+    display: flex;
+    cursor: pointer;
+}
+
+h2#textarea{
+    color: rgb(6, 75, 116);
+    font-size: 70px;
+    text-align: center;
+}
+
+strong{
+    font-size: 22px;
+}
+
+img#logo2{
+    left: 40%;
+    margin: 170px 0px 0px 65px;
+    display: flex;
+    text-align: justify;
+    float: right;
+    cursor: pointer;
+}
+
+img.logo7{
+    perspective: 200px;
+    animation: logo5 6s linear infinite;
+  }
+
+@keyframes logo5{
+    0%{transform: rotatey(0);}
+    100%{transform: rotatey(360deg);}
+}
+
+
+h2#contact{
+    color: rgb(6, 75, 116);
+    font-size: 70px;
+    text-align: center;
+    margin: 65px 0px 45px 0px;
+}
+
+  story .animasyon2{
+    text-align: justify;
+    width: 25%;
+    float: left;
+    cursor: pointer;
+    display: flex;
+    
+}
+
+story{
+    flex-direction: column;
+    margin-left: 22px;
+    margin-top: 25px;
+}
+
+div.animasyon{
+    display: flex;
+    cursor: pointer;
+    background-image: url(web28.jpg) ;
+    background-size: 100%;
+}
+
+footer{
+    text-align: center;
+    background: rgb(117, 1, 1);
+    font-size: 48px;
+    color: rgb(174, 243, 243);
+    padding: 10px 0px;
+    letter-spacing: 3px;
+    height: 58px;
+    border: 1px solid rgb(117, 1, 1);
+}
+
+.press{
+    height:48px;
+    width:290px;
+    background-color: dimgray;
+    font-size: 26px;
+    border-radius: 8px;
+    }
+
+#press{
+    height:38px;
+    width:320px;
+    background-color: rgb(184, 179, 179);
+    font-size: 26px;
+    border-radius: 5px;
+}
+
+h2.tour{
+    font-size: 30px;
+    color: rgb(98, 1, 90);
+    margin-left: 10px;
+}
+
+span{
+    color: rgb(7, 114, 3);
+    font-size: 68px;
+}
+
+img#logo8{
+    margin-left: 5%;
+    margin-top: 35px;
+}
+
+img.company:hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
